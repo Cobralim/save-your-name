@@ -1,0 +1,42 @@
+.topDiv{
+
+
+}
+
+.title{
+    display: flex;
+    background-color: aliceblue;
+    padding: 20px;
+    margin-bottom: 10px;
+    font-size: x-large;
+    /*to put the conetent in the middle*/
+    justify-content: space-around;
+    
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+
+
+.grid_container{
+    display: grid; 
+    justify-items: center; /* put the content in the middle */
+    grid-template-columns: 1fr 3fr 1fr;
+    
+}
+
+.print{
+    padding: 10px 150px 40px 150px;
+    grid-column: 2;
+    background-color: rgb(147, 174, 190);
+    
+}
+
+.deleteButton{
+
+}
+
