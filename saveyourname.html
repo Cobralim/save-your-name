@@ -53,8 +53,8 @@
             human = [
                 {firstName: "Cobra",
                  lastName: "Lim", 
-                 dayMonth: 2703, 
-                 year:2001 }];
+                 dayMonth: "2703", 
+                 year:"2001" }];
         }
     
 
@@ -175,7 +175,7 @@
             for(x=0;x<human.length;x++){
                 human[x].firstName = human[x].firstName.trim(); 
                 human[x].lastName = human[x].lastName.trim(); 
-                human[x].dayMonth = human[x].dayMonth;
+                human[x].dayMonth = human[x].dayMonth.trim();
                 human[x].year = human[x].year.trim(); 
             }
             saveInfo();
