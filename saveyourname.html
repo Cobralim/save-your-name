@@ -119,7 +119,7 @@
             getName = window.prompt("Enter name").trim();
 
             for(x=0;x<human.length;x++){
-                console.log(x);
+                //console.log(x);
                 if (getName.toUpperCase() == human[x].firstName.toUpperCase()){
                     personalDataName = "Name: " + human[x].firstName + " " + human[x].lastName + "\n";
                     personalDataDOB = "DOB: " + human[x].dayMonth + " " + human[x].year ;
@@ -174,7 +174,7 @@
             for(x=0;x<human.length;x++){
                 human[x].firstName = human[x].firstName.trim(); 
                 human[x].lastName = human[x].lastName.trim(); 
-                human[x].dayMonth = human[x].dayMonth.trim(); 
+                human[x].dayMonth = human[x].dayMonth;
                 human[x].year = human[x].year.trim(); 
             }
             saveInfo();
