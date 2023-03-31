@@ -80,7 +80,7 @@
                     let name = human[i].firstName + " " + human[i].lastName;
                     let DOB = human[i].dayMonth + " " + human[i].year;
                     document.getElementById('p1').innerHTML = name + " " + DOB;
-
+                    console.log(name + " " + DOB); 
                 })
                 i++;
             }else{
@@ -124,6 +124,7 @@
                     personalDataName = "Name: " + human[x].firstName + " " + human[x].lastName + "\n";
                     personalDataDOB = "DOB: " + human[x].dayMonth + " " + human[x].year ;
                     document.getElementById('p1').innerText = personalDataName + personalDataDOB;
+                    console.log(personalDataName + personalDataDOB); 
                     break;
                 }else{
                     continue;
